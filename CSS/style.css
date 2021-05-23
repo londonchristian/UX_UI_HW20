@@ -1,0 +1,161 @@
+.logo{
+    width: 500px;
+    height: 250px;
+    margin: auto;
+    padding:1px;
+    background-color: #000000;
+    text-align: center;
+}
+nav {
+    width:100%;
+    padding: 1%;
+    font-size: 28px;
+}
+.navigation{
+    overflow: hidden;
+}
+header ul {
+    width: auto;
+    margin:auto;
+    list-style: none;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+header li{
+    display: inline-block;
+    padding: 0px 50px;
+}
+h1{
+    font-size: 72px;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+.heroImg {
+    height: 15;
+    width: 15;
+    padding: 50px 50x;
+    vertical-align: middle;
+}
+.face{
+    height: 775px;
+    width: 1000px;
+}
+.content{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+button{
+    background-color: #FFFFFF;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 12px;
+}
+footer ul {
+    background-color: #464646;
+    list-style: none;
+    width: auto;
+    margin-left:auto;
+    text-align: center;
+}
+footer li{
+    display: inline-block;
+    padding: 0px 50px;
+    color: #FFFFFF;
+    vertical-align: middle;
+}
+.bottomNav{
+    font-size: 28px;
+    display:inline-block;
+    vertical-align:top;
+}
+body {
+    background-color: black;
+    margin: 0;
+}
+p{
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+.parentContainer{
+    display: flex;
+    background-color: #000000;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.flexChild{
+    background-color: #46464681;
+    color:#FFFFFF;
+    padding: 25px;
+    margin: 10px;
+    height: 75px;
+    width: 300px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 15px;
+}
+.workGrid{
+    display:grid;
+    height: auto;
+    padding: 50px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-content: start;
+    grid-gap: 50px;
+    background-color: #000000;
+}
+.project{
+    background-color: #464646;
+    color: #FFFFFF;
+    border-radius: 10px;
+    width: 600px;
+    height: 1000px;
+    padding: 3px 50px 5px 50px;
+    text-align: center;
+}
+.project1{
+    border-radius: 45px;
+}
+.project2{
+    border-radius: 45px;
+}
+.project3{
+    border-radius: 45px;
+}
+h4{
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media only screen and (max-width: 900px){
+    #parentContainer{
+        display: flex;
+        flex-direction: column;
+        background-color: #000000;
+        padding: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+    #flexChild{
+        background-color: #46464681;
+        color:#FFFFFF;
+        padding: 25px;
+        margin: 10px;
+        height: 75px;
+        width: 100%;
+        text-align: center;
+        font-size: 5px;
+        border-radius: 15px;
+    }
+    .workGrid{
+        display: grid;
+        height: auto;
+        margin: 0px;
+        padding: 0px 100px 100px 100px;
+        grid-template-columns: 1fr;
+        background-color: #000000;
+        align-content: start;
+        grid-gap: 50px; 
+    }
+}
