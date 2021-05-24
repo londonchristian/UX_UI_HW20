@@ -1,52 +1,135 @@
 <!DOCTYPE html>
 <html>
+   
     <head>
-        <link rel="stylesheet" href="CSS/style.css"/>
-        <title>Keith G. Davis</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="CSS/style.css">
+        <title> 
+            UX/UI Homework 20
+        </title>
     </head>
     <body>
-        <header class="navigation">
-           <div class= "logo">
-               <img class="logo" src="Images/Untitled_page-0001.jpg">
-           </div>
-           <nav class="inline-block">
-               <ul>
-                    <li>About</li>
-                   <li>Contact</li>
-                   <li>Expertise</li>
-                   <li>Projects</li>
-                   <li>Resume</li>
-               </ul>
-           </nav>
-        </header>
-        <section class="heroImg">
-            <div class="content">
-                
-                <img class="face" src="Images/IMG_1318.jpg">
-                <h1>Call me KD!</h1>
-                <p>
-                    I’m a freelance UX/UI designer. I specialize in user research and storytelling and enjoy solving user problems that are one-off or edge cases. My skills include Vendor Management, Restaurant Technology, and Product Ownership.
-                </p>
-                
-                <a href="/docs/Keith Davis Resume.docx" download="Keith Davis Resume">
-                    <button>Download Resume</button>
-                  </a>
-            </div>
-        </section>
-        <footer>
-            <nav class="bottomNav">
-                <ul>
-                    <li>Mobile: 901.483.0692 <br>Email: daviskeithg@yahoo.com</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                    <li>Expertise</li>
-                    <li>Projects</li>
-                    <li>Resume</li> 
-                    <li>Facebook <br>Instagram</li>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Executive Summary</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">User Research</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Definition</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Ideation</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Prototyping</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Testing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Conclusion</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown link
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
                 </ul>
-            </nav>
-        </footer>
+              </div>
+            </div>
+          </nav>
+          <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Trips With Friends</h1>
+              <p class="lead">by Keith G. Davis</p>
+            </div>
+            <img class="mainImage" src="Images/dariusz-sankowski-3OiYMgDKJ6k-unsplash.jpg">
+          </div>
+          <h2 class="executiveSummary">Executive Summary</h2>
+          <section class="page2">
+              <div class="p2left">
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                      <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Project Overview
+                          </button>
+                        </h2>
+                      </div>
+                  
+                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            The Problem
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            The Solution
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                              My Role
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                          <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="p2right">
+                <img class="mainImage" src="Images/Screen Shot 2021-05-07 at 7.20.57 PM.png">
+              </div>
+          </section>
     </body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
 </html>
