@@ -3,7 +3,10 @@
 }
 .container{
     margin: 5px;
-    float:left;
+    position:absolute;
+    left: 350px;
+    top: 550px;
+    text-align: center;
 }
 .display-4{
     font-size: 72px;
@@ -12,10 +15,18 @@
     font-size: 32px;
 }
 .mainImage{
-    height: 1400px;
-    width:2000px;
+    height: 1080px;
+    width:1920px;
 }
-.page2{
-    display:grid;
-    grid-template-columns: auto auto;
+.p2left{
+    width:850px;
+    display:inline-block;
+    vertical-align: top;
+}
+.p2right{
+    width:45%;
+    display:inline-block;
+}
+.page2image{
+    width:920px;
 }
