@@ -16,10 +16,10 @@
 }
 .mainImage{
    width:100%;
-   max-width: 1080px;
+   min-width: 1920px;
 }
 .page2{
-    width:2000px;
+    min-width:2000px;
 }
 .p2left{
     width:850px;
