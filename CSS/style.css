@@ -15,8 +15,11 @@
     font-size: 32px;
 }
 .mainImage{
-    height: 1080px;
-    width:1920px;
+   width:100%;
+   max-width: 1080px;
+}
+.page2{
+    width:2000px;
 }
 .p2left{
     width:850px;
