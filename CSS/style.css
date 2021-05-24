@@ -16,10 +16,11 @@
    min-width: 1920px;
 }
 .page2{
+    width:100%;
     min-width:2000px;
 }
 .p2left{
-    width:850px;
+    width:45%;
     display:inline-block;
     vertical-align: top;
 }
