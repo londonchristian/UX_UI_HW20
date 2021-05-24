@@ -1,4 +1,4 @@
 $('.collapse').collapse()
-$('#myCollapsible').collapse({
+$('#accordionExample').collapse({
     toggle: false
   })

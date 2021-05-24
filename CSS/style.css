@@ -29,5 +29,46 @@
     display:inline-block;
 }
 .page2image{
-    width:920px;
+    width:1080px;
+}
+.page3{
+    width:100%;
+    min-width:2000px;
+}
+.page3image{
+    width:1080px;
+}
+.p3left{
+    width:45%;
+    display:inline-block;
+    vertical-align: top;
+}
+.p3right{
+    width:45%;
+    display:inline-block;
+}
+.card-columns 
+{
+    column-count: 3;
+}
+.userInterviewInsights{
+    width:100%;
+}
+.empathyMap{
+    width:100%;
+}
+.affinityDiagram{
+    width:100%;
+}
+.userPersona{
+    width:100%;
+}
+.journeyMap{
+    width:100%;
+}
+.storyBoard{
+    width:100%;
+}
+.userScenario{
+    width:100%;
 }
