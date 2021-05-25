@@ -1,6 +1,9 @@
 .navbar-nav{
     font-size: 18px;
 }
+h2{
+    font-size: 72px;
+}
 .container{
     position: absolute;
     text-align: left;
@@ -39,36 +42,52 @@
     width:1080px;
 }
 .p3left{
-    width:45%;
-    display:inline-block;
-    vertical-align: top;
+    width:100%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+   /*display:inline-block;
+    vertical-align: top;*/
 }
 .p3right{
     width:45%;
     display:inline-block;
 }
-.card-columns 
-{
+.card-columns{
     column-count: 3;
 }
 .userInterviewInsights{
     width:100%;
+    padding: 150px;
 }
 .empathyMap{
     width:100%;
+    padding: 150px;
 }
 .affinityDiagram{
     width:100%;
+    padding:150px;
 }
 .userPersona{
     width:100%;
+    padding: 150px;
 }
 .journeyMap{
     width:100%;
+    padding:150px;
 }
 .storyBoard{
     width:100%;
+    padding: 150px;
 }
 .userScenario{
     width:100%;
+    padding:150px;
+}
+.sketchesImages{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px;
+    margin: 15px;
+    padding: 10px;
+    width: 2700px;
 }
